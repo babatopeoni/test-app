@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/babatopeoni/mock-package.git",
-                "reference": "a3f8a827a61ee88e1e94cda3d28cc2aaf37d8c71"
+                "reference": "216d4be004b23d9d64903a50ea72742ce5c41bd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/babatopeoni/mock-package/zipball/a3f8a827a61ee88e1e94cda3d28cc2aaf37d8c71",
-                "reference": "a3f8a827a61ee88e1e94cda3d28cc2aaf37d8c71",
+                "url": "https://api.github.com/repos/babatopeoni/mock-package/zipball/216d4be004b23d9d64903a50ea72742ce5c41bd2",
+                "reference": "216d4be004b23d9d64903a50ea72742ce5c41bd2",
                 "shasum": ""
             },
             "require": {
@@ -32,21 +32,21 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "babatopeoni\\mock-package\\mock-packageServiceProvider"
+                        "BabatopeOni\\MockPackage\\MockPackageServiceProvider"
                     ],
                     "aliases": {
-                        "mock-package": "babatopeoni\\mock-package\\Facades\\mock-package"
+                        "MockPackage": "BabatopeOni\\MockPackage\\Facades\\MockPackage"
                     }
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "babatopeoni\\mock-package\\": "src/"
+                    "BabatopeOni\\MockPackage\\": "src/"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "babatopeoni\\mock-package\\Tests\\": "tests"
+                    "BabatopeOni\\MockPackage\\Tests\\": "tests"
                 }
             },
             "license": [
@@ -60,16 +60,16 @@
                 }
             ],
             "description": ":description",
-            "homepage": "https://github.com/babatopeoni/mock-package",
+            "homepage": "https://github.com/babatopeoni/mockpackage",
             "keywords": [
                 "Laravel",
-                "mock-package"
+                "MockPackage"
             ],
             "support": {
                 "source": "https://github.com/babatopeoni/mock-package/tree/master",
                 "issues": "https://github.com/babatopeoni/mock-package/issues"
             },
-            "time": "2018-07-03 20:48:12"
+            "time": "2018-07-05 13:51:57"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1228,16 +1228,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.15",
+            "version": "v2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/10bcb46e8f3d365170f6de9d05245aa066b81f09",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
                 "shasum": ""
             },
             "require": {
@@ -1273,7 +1273,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-08 15:26:40"
+            "time": "2018-07-04 16:31:37"
         },
         {
             "name": "psr/container",
@@ -1623,16 +1623,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.1.0",
+            "version": "v6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0ff595e1d9d7d1c929b2a5f7b774bbcfbbd81587"
+                "reference": "aa899fef280b1c1aec8d5d4ac069af7f80c89a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0ff595e1d9d7d1c929b2a5f7b774bbcfbbd81587",
-                "reference": "0ff595e1d9d7d1c929b2a5f7b774bbcfbbd81587",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/aa899fef280b1c1aec8d5d4ac069af7f80c89a23",
+                "reference": "aa899fef280b1c1aec8d5d4ac069af7f80c89a23",
                 "shasum": ""
             },
             "require": {
@@ -1678,7 +1678,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2018-07-02 20:24:38"
+            "time": "2018-07-04 11:12:44"
         },
         {
             "name": "symfony/console",
